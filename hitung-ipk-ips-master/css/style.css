@@ -1,0 +1,97 @@
+body {
+    font-family: montserratregular;
+    position: relative;
+    margin-top: 40px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+hr {
+    border-top: 3px solid;
+    color: #999;
+}
+/* ========================================================================== 
+*    navbar
+=============================================================================*/
+nav {
+    font-family: montserratmedium;
+}
+
+.navbar-brand {
+    font-family: chunkfive-print;
+    font-size: 20px;
+}
+
+.vin-card{
+    margin: auto;
+    padding: 15px 30px;
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    margin-bottom: 35px;
+    box-shadow: 10px 8px 10px rgb(0,0,0,0.5);
+    background-color: rgba(255,255,255,0.8);
+}
+
+.vin-card h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: montserratmedium;
+}
+
+.vin-card p {
+    text-indent: 0;
+    line-height: 1.7;
+}
+
+/* =============================================================================
+*   untuk bagian footer
+============================================================================= */
+footer {
+    background-color: black;
+    left: 0;
+    right: 0;
+    height: 80px;
+    position: absolute;
+    line-height: 80px;
+    color: wheat;
+    font-size: 0.8em;
+}
+
+/* =============================================================================
+* kustomisasi font  
+=============================================================================*/
+@font-face {
+    font-family: 'chunkfive-print';
+    src: url('../font/chunkfive-print.woff');
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../font/montserrat-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../font/montserrat-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../font/montserrat-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('../font/montserrat-black-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('../font/montserrat-semibold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../font/montserrat-light-webfont.woff') format('woff');
+}
